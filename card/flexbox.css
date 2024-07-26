@@ -1,0 +1,140 @@
+*{
+     margin: 0px; 
+      padding: 0px;  
+     
+    
+}
+.shop{
+    display: flex;
+    background-color: rgb(238, 31, 31);
+    height: 150px;
+    justify-content: space-around;
+    font-size: 60px;
+    font-weight: bolder;
+    text-decoration: underline;
+    align-items: center;
+    /* flex-wrap: wrap; */
+   
+}
+.nav{
+    display: flex;
+    height: 40px;
+    background-color: rgb(39, 38, 39);
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: underline;
+    /* flex-wrap: wrap; */
+}
+    
+    
+
+.container{
+    display:flex;
+    width: 350px;
+    height: 400px;
+    margin: 5px 0px 5px 26px ;
+    background-color: aliceblue;
+    border-radius: 15px ;
+    box-shadow: 5px 0px 12px 0px;
+    position: relative;
+    /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+    
+    
+    
+}
+.img{
+    border-radius: 10px 10px 0px 0px ;
+    width: 350px;
+    height: 200px;
+}
+
+.offer{
+    display: flex;
+    height: 35px;
+    width: 75px;
+    color: aliceblue;
+    position: absolute;
+    background-color: rgb(255, 3, 3);
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 2px;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 270px;
+    font-weight: bolder;
+   
+
+}
+
+.btn{
+    background-color:rgb(255, 3, 3) ;
+    height: 30px;
+    width: 80px;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+    border-bottom:2px black ;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 10px;
+    transform: rotate(5deg);
+    
+}
+
+
+.btn:hover{
+    height: 35px;
+    width: 85px;
+    background-color:rgb(255, 3, 3) ;
+}
+a{
+    text-decoration: none;
+    margin-right: 200px;
+    color: rgb(255, 3, 3);
+    
+}
+.card{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: arial;
+    color: blue;
+    margin-top: 30px;
+}   
+
+ul{
+    list-style: none;
+}
+
+
+.container:hover{
+    height: 405px; 
+    background-color: rgb(192, 220, 245) 
+    
+}
+    
+.parent-container{ 
+    display: grid;
+    width:90%;
+    height: auto;
+    background-color: aliceblue;
+    border-top:5px  solid rgb(238, 31, 31);
+    border-bottom: 5px solid rgb(238, 31, 31);
+    border-width: 5px;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-columns: 400px 400px 400px;
+    row-gap: 80px;
+    column-gap: 10px;
+    margin-left: 65px;
+    justify-content: center; 
+    margin-top: 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,350px));
+
+    }
+    
